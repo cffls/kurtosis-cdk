@@ -50,7 +50,7 @@ zkevm.l1-rpc-url: {{.l1_rpc_url}}
 zkevm.l2-chain-id: {{.zkevm_rollup_chain_id}}
 
 zkevm.rpc-ratelimit: 250
-zkevm.disable-virtual-counters: false
+zkevm.disable-virtual-counters: true
 
 nodiscover: true
 maxpeers: 0
